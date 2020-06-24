@@ -313,20 +313,28 @@
 .links {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 24px;
 }
-.team-links a {
+.team-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
-  padding: 0;
+  color: var(--primary-color);
 }
 .team-links:hover {
   background-color: var(--bgr-accent);
+  color: var(--color-white);
   border-radius: 50%;
 }
 .team-links-icon {
-  fill: var(--primary-color);
+  fill: currentColor;
+  padding: 0;
+}
+.team-links-icon:hover {
+  fill: var(--color-white);
 }
 /*Наши клиенты*/
 .clients {
