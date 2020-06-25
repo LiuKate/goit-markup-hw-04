@@ -345,7 +345,8 @@
 /*Футер*/
 .footer {
   background-color: var(--bgr-footer);
-  padding-top: 45px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .adress-main {
   color: var(--color-white);
@@ -370,6 +371,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin: 0;
+  margin-bottom: 20px;
 }
 .adress-links {
   margin-top: 9px;
@@ -380,6 +382,7 @@
 .footer .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .block-adress {
   width: calc((100%-60px) / 4);
@@ -398,6 +401,44 @@
 }
 .block-sign {
   width: calc((100%-60px) / 2);
+}
+.join-links {
+  display: flex;
+  align-content: flex-start;
+}
+.join-links-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--color-white);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.join-links li:not(:last-child) {
+  margin-right: 10px;
+}
+.join-links-icon {
+  fill: currentColor;
+}
+.join-links-item:hover {
+  background-color: var(--bgr-accent);
+}
+.button-sign {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-white);
+  background-color: var(--bgr-accent);
+}
+.sign-form {
+  display: flex;
+  margin-top: 20px;
 }
 /*Портфолио*/
 .hidden {
