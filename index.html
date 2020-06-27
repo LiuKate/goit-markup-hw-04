@@ -37,13 +37,13 @@
         <div class="contacts-header">
           <ul class="contacts list">
             <li class="contacts-item">
-              <svg class="icon-envelope">
+              <svg class="contacts-icon" width="16px" height="11px">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li class="contacts-item">
-              <svg class="icon-smartphone">
+              <svg class="contacts-icon" width="10px" height="15px">
                 <use href="./images/sprite.svg#icon-smartphone"></use>
               </svg>
               <a href="tel:+380961111111">+38 096 111 11 11</a>
@@ -299,53 +299,46 @@
         <div class="container">
           <h2 class="section-name">Постоянные клиенты</h2>
           <ul class="clients list">
-            <li>
-              <a>
-                <img
-                  src="./images/Client1.png"
-                  alt="Лого клиента 1"
-                  width="170"
-              /></a>
+            <li class="clients-logo-block">
+              <a class="clients-logo">
+                <svg class="icon-logo" width="45" height="50">
+                <use href="./images/sprite.svg#icon-client-1"></use></svg>
+              </a>
             </li>
-            <li>
-              <a>
-                <img
-                  src="./images/Client2.png"
-                  alt="Лого клиента 2"
-                  width="170"
-              /></a>
+            <li class="clients-logo-block">
+              <a class="clients-logo">
+                <svg class="icon-logo" width="40" height="52">
+                  <use href="./images/sprite.svg#icon-client-2"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a>
-                <img
-                  src="./images/Client3.png"
-                  alt="Лого клиента 3"
-                  width="170"
-              /></a>
+            <li class="clients-logo-block">
+              <a class="clients-logo">
+                <svg class="icon-logo" width="41" height="43">
+                  <use href="./images/sprite.svg#icon-client-3"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a>
-                <img
-                  src="./images/Client4.png"
-                  alt="Лого клиента 4"
-                  width="170"
-              /></a>
+            <li class="clients-logo-block">
+              <a class="clients-logo">
+                <svg class="icon-logo" width="80" height="42">
+                  <use href="./images/sprite.svg#icon-client-4"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a>
-                <img
-                  src="./images/Client5.png"
-                  alt="Лого клиента 5"
-                  width="170"
-              /></a>
+            <li class="clients-logo-block">
+              <a class="clients-logo">
+                <svg class="icon-logo" width="59" height="47">
+                  <use href="./images/sprite.svg#icon-client-5"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a>
-                <img
-                  src="./images/Client6.png"
-                  alt="Лого клиента 6"
-                  width="170"
-              /></a>
+            <li class="clients-logo-block">
+              <a class="clients-logo">
+                <svg class="icon-logo" width="89" height="46">
+                  <use href="./images/sprite.svg#icon-client-6"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -407,8 +400,12 @@
           <p class="sign">Подпишитесь на рассылку</p>
           <div class="sign-form">
             <input></input>
-            <button class="button-sign">Подписаться</button>
-          </div>
+            <button class="button-sign">Подписаться
+              <svg class="icon-send">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+                     </div>
         </div>
       </div>
     </footer>
