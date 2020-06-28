@@ -85,14 +85,25 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
 .site-nav :hover,
 .site-nav :focus {
   color: var(--accent-blue);
 }
+.site-nav {
+  display: flex;
+  margin-left: 85px;
+}
 .contacts {
   display: flex;
 }
-.contacts a {
+.contacts-item a {
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 500;
@@ -100,27 +111,16 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.contacts-item {
-  color: var(--primary-color);
+.contacts-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 .contacts-item :hover,
 .contacts-item :focus {
   color: var(--accent-blue);
 }
-.site-nav {
-  display: flex;
-  margin-left: 85px;
-}
-.nav-item:not(:last-child) {
-  margin-right: 50px;
-}
-
 .contacts-item:not(:last-child) {
   margin-right: 30px;
-}
-.nav {
-  display: flex;
-  align-items: center;
 }
 .site-header .container {
   display: flex;
@@ -132,9 +132,6 @@
 }
 .contacts-header {
   margin-left: auto;
-}
-.contacts-icon {
-  fill: currentColor;
 }
 
 /*Стили секции Герой*/
@@ -294,6 +291,7 @@
 }
 .our-team img {
   display: block;
+  margin: 0;
   margin-bottom: 30px;
 }
 .team {
